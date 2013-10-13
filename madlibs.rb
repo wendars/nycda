@@ -10,7 +10,8 @@ print "Pick another adjective:"
 adjective_two = gets.chomp
 adjective_two.downcase!
 
-print "Pick a noun:"
-noun = gets.chomp
+print "Pick a food:"
+food = gets.chomp
+food.downcase!
 
-puts "#{name} is #{adjective_one} and ate #{adjective_two} #{noun}."
+puts "#{name} is #{adjective_one} and ate #{adjective_two} #{food}."
