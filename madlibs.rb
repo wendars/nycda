@@ -14,4 +14,4 @@ print "Pick a food:"
 food = gets.chomp
 food.downcase!
 
-puts "#{name} is #{adjective_one} and ate #{adjective_two} #{food}."
+puts "#{name} is #{adjective_one} and ate #{adjective_two} #{food}. As a result, #{food}, angry at the injustice of being eaten, rebelled against #{name}."
